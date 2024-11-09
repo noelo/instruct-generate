@@ -1,0 +1,300 @@
+created_by: noelo
+domain: Batteries
+seed_examples:
+- context: '# Lithium iron phosphate battery The *lithium iron phosphate battery*
+    (*LiFePO4 battery*) or LFP battery (lithium ferrophosphate) is a type of lithium-ion
+    battery using lithium iron phosphate (LiFePO4) as the cathode material, and a
+    graphitic carbon electrode with a metallic backing as the anode.'
+  questions_and_answers:
+  - answer: The cathode material in a lithium iron phosphate battery is lithium iron
+      phosphate (LiFePO4).
+    question: What is the cathode material in a lithium iron phosphate battery?
+  - answer: Another name for a lithium ferrophosphate battery is LFP battery.
+    question: What is another name for a lithium ferrophosphate battery?
+  - answer: The anode material in a lithium iron phosphate battery is a graphitic
+      carbon electrode with a metallic backing.
+    question: What is the anode material in a lithium iron phosphate battery?
+- context: Because of their low cost, high safety, low toxicity, long cycle life and
+    other factors, LFP batteries are finding a number of roles in vehicle use, utility-scale
+    stationary applications, and backup power. LFP batteries are cobalt-free. As of
+    September 2022, LFP type battery market share for EVs reached 31%, and of that,
+    68% were from EV makers Tesla and BYD alone. Chinese manufacturers currently hold
+    a near monopoly of LFP battery type production. With patents having started to
+    expire in 2022 and the increased demand for cheaper EV batteries, LFP type production
+    is expected to rise further and surpass lithium nickel manganese cobalt oxides
+    (NMC) type batteries in 2028. The specific energy of LFP batteries is lower than
+    that of other common lithium-ion battery types such as nickel manganese cobalt
+    (NMC) and nickel cobalt aluminum (NCA).
+  questions_and_answers:
+  - answer: One of the factors contributing to the increasing popularity of LFP batteries
+      is their low cost.
+    question: What is one of the factors contributing to the increasing popularity
+      of LFP batteries?
+  - answer: As of September 2022, 68% of the LFP battery market share for EVs was
+      held by Tesla and BYD.
+    question: What percentage of the LFP battery market share for EVs is held by Tesla
+      and BYD as of September 2022?
+  - answer: Chinese manufacturers currently hold a near monopoly of LFP battery type
+      production.
+    question: Which country currently holds a near monopoly of LFP battery type production?
+- context: "The specific energy of CATL's LFP battery is currently 125 Watt-hours\
+    \ per kilogram (Wh/kg) and up to possibly 160 Wh/kg with improved packing technology.\
+    \ BYD's LFP battery specific energy is 150 Wh/kg. The best NMC batteries exhibit\
+    \ specific energy values of over 300 Wh/kg. Notably, the specific energy of Panasonic\u2019\
+    s \u201C2170\u201D NCA batteries used in Tesla\u2019s 2020 Model 3 is around 260\
+    \ Wh/kg, which is 70% of its \"pure chemicals\" value. LFP batteries also exhibit\
+    \ a lower operating voltage than other lithium-ion battery types."
+  questions_and_answers:
+  - answer: 125 Watt-hours per kilogram (Wh/kg)
+    question: What is the specific energy of CATL's LFP battery?
+  - answer: Up to possibly 160 Wh/kg
+    question: What is the maximum possible specific energy of CATL's LFP battery with
+      improved packing technology?
+  - answer: 150 Wh/kg
+    question: What is the specific energy of BYD's LFP battery?
+- context: '## Specifications * Minimum discharge Cell voltage = 2.0-2.8 V * Working
+    Cell  voltage = 3.0 ~ 3.3 V * Maximum Cell charge voltage = 3.60-3.65 V * Volumetric
+    energy density = 220 Wh/L (790 kJ/L)'
+  questions_and_answers:
+  - answer: 2.0-2.8 V
+    question: What is the minimum discharge cell voltage?
+  - answer: 3.0 ~ 3.3 V
+    question: What is the working cell voltage?
+  - answer: 220 Wh/L (790 kJ/L)
+    question: What is the volumetric energy density of the cell?
+- context: '* Gravimetric energy density > 90 Wh/kg (> 320 J/g). Up to 160 Wh/kg (580
+    J/g). Latest version announced in end of 2023, early 2024 made significant improvements
+    in energy density from 180 up to 205 Wh/kg without increasing production costs.'
+  questions_and_answers:
+  - answer: The minimum gravimetric energy density of the latest version of the battery
+      is 90 Wh/kg.
+    question: What is the minimum gravimetric energy density of the latest version
+      of the battery?
+  - answer: The maximum gravimetric energy density of the latest version of the battery
+      is 160 Wh/kg.
+    question: What is the maximum gravimetric energy density of the latest version
+      of the battery?
+  - answer: Yes, the latest version of the battery saw significant improvements in
+      energy density from 180 up to 205 Wh/kg without increasing production costs.
+    question: Did the latest version of the battery see any improvements in energy
+      density without increasing production costs?
+- context: '* Cycle life from 2,700 to more than 10,000 cycles depending on conditions.
+    Next gen high energy density versions have reduced charging lifecycles probably
+    around 5000 max cycles. ## Better aging and cycle-life characteristics LFP chemistry
+    offers a considerably longer cycle life than other lithium-ion chemistries. Under
+    most conditions it supports more than 3,000 cycles, and under optimal conditions
+    it supports more than 10,000 cycles. NMC batteries support about 1,000 to 2,300
+    cycles, depending on conditions. LFP cells experience a slower rate of capacity
+    loss (a.k.a. greater calendar-life) than lithium-ion battery chemistries such
+    as cobalt (LiCoO2) or manganese spinel (LiMn2O4) lithium-ion polymer batteries
+    (LiPo battery) or lithium-ion batteries.'
+  questions_and_answers:
+  - answer: The next gen high energy density versions of LFP chemistry have reduced
+      charging lifecycles probably around 5000 max cycles.
+    question: What is the maximum cycle life of next gen high energy density versions
+      of LFP chemistry?
+  - answer: Under optimal conditions, LFP chemistry supports more than 10,000 cycles,
+      while other lithium-ion chemistries support around 1,000 to 2,300 cycles.
+    question: How does the cycle life of LFP chemistry compare to other lithium-ion
+      chemistries under optimal conditions?
+  - answer: NMC batteries support about 1,000 cycles under most conditions.
+    question: What is the minimum cycle life that can be expected from NMC batteries
+      under most conditions?
+- context: '## Viable alternative to lead-acid batteries Because of the nominal 3.2
+    V output, four cells can be placed in series for a nominal voltage of 12.8 V.
+    This comes close to the nominal voltage of six-cell lead-acid batteries. Along
+    with the good safety characteristics of LFP batteries, this makes LFP a good potential
+    replacement for lead-acid batteries in applications such as automotive and solar
+    applications, provided the charging systems are adapted not to damage the LFP
+    cells through excessive charging voltages (beyond 3.6 volts DC per cell while
+    under charge), temperature-based voltage compensation, equalisation attempts or
+    continuous trickle charging. The LFP cells must be at least balanced initially
+    before the pack is assembled and a protection system also needs to be implemented
+    to ensure no cell can be discharged below a voltage of 2.5 V or severe damage
+    will occur in most instances, due to irreversible deintercalation of LiFePO4 into
+    FePO4.'
+  questions_and_answers:
+  - answer: 3.2 V
+    question: What is the nominal voltage of a single LFP cell?
+  - answer: 12.8 V
+    question: What is the nominal voltage of a series of four LFP cells?
+  - answer: Automotive and solar applications
+    question: What is a potential application for LFP batteries that is similar to
+      lead-acid batteries?
+- context: The fully lithiated and unlithiated states of LiFePO4 are structurally
+    similar which means that LiFePO4 cells are more structurally stable than LiCoO2
+    cells. No lithium remains in the cathode of a fully charged LFP cell. In a LiCoO2
+    cell, approximately 50% remains. LiFePO4 is highly resilient during oxygen loss,
+    which typically results in an exothermic reaction in other lithium cells.
+  questions_and_answers:
+  - answer: LiFePO4 cells are more structurally stable than LiCoO2 cells because they
+      have a similar structure in the fully lithiated and unlithiated states.
+    question: Why are LiFePO4 cells more structurally stable than LiCoO2 cells?
+  - answer: No lithium remains in the cathode of a fully charged LFP cell.
+    question: What happens to the lithium in a fully charged LFP cell?
+  - answer: Approximately 50% of lithium remains in the cathode of a fully charged
+      LiCoO2 cell.
+    question: What percentage of lithium remains in the cathode of a fully charged
+      LiCoO2 cell?
+- context: 'As a result, LiFePO4 cells are harder to ignite in the event of mishandling
+    (especially during charge). The LiFePO4 battery does not decompose at high temperatures.
+    ## Lower energy density The energy density (energy/volume) of a new LFP battery
+    is some 14% lower than that of a new LiCoO2 battery. Since discharge rate is a
+    percentage of battery capacity, a higher rate can be achieved by using a larger
+    battery (more ampere hours) if low-current batteries must be used.'
+  questions_and_answers:
+  - answer: LiFePO4 cells are harder to ignite because they do not decompose at high
+      temperatures.
+    question: Why are LiFePO4 cells harder to ignite compared to other batteries?
+  - answer: The energy density of a new LFP battery is some 14% lower than that of
+      a new LiCoO2 battery.
+    question: What is the energy density of a new LFP battery compared to a new LiCoO2
+      battery?
+  - answer: A higher discharge rate can be achieved by using a larger battery (more
+      ampere hours) if low-current batteries must be used.
+    question: How can a higher discharge rate be achieved with a lower energy density
+      LFP battery?
+- context: '## Use Cases ### Home energy storage Enphase pioneered LFP along with
+    SunFusion Energy Systems LiFePO4 Ultra-Safe ECHO 2.0 and Guardian E2.0 home or
+    business energy storage batteries for reasons of cost and fire safety, although
+    the market remains split among competing chemistries. Though lower energy density
+    compared to other lithium chemistries adds mass and volume, both may be more tolerable
+    in a static application.'
+  questions_and_answers:
+  - answer: Enphase
+    question: What company pioneered LFP home or business energy storage batteries?
+  - answer: Cost and fire safety
+    question: What is the reason for Enphase to use LFP in their home or business
+      energy storage batteries?
+  - answer: SunFusion Energy Systems
+    question: What other company collaborated with Enphase in pioneering LFP batteries?
+- context: In 2021, there were several suppliers to the home end user market, including
+    SonnenBatterie and Enphase. Tesla Motors continues to use NMC batteries in its
+    home energy storage products, but in 2021 switched to LFP for its utility-scale
+    battery product. According to EnergySage the most frequently quoted home energy
+    storage battery brand in the U.S. is Enphase, which in 2021 surpassed Tesla Motors
+    and LG.
+  questions_and_answers:
+  - answer: SonnenBatterie and Enphase
+    question: Who were the suppliers to the home end user market in 2021?
+  - answer: Enphase
+    question: Which brand of home energy storage battery was the most frequently quoted
+      in the U.S. in 2021?
+  - answer: LFP
+    question: Which type of battery does Tesla Motors use for its utility-scale battery
+      product in 2021?
+- context: '### Vehicles Higher discharge rates needed for acceleration, lower weight
+    and longer life makes this battery type ideal for forklifts, bicycles and electric
+    cars. Twelve-volt LiFePO4 batteries are also gaining popularity as a second (house)
+    battery for a caravan, motor-home or boat. Tesla Motors uses LFP batteries in
+    all standard-range Models 3 and Y made after October 2021 except for standard-range
+    vehicles made with 4680 cells starting in 2022, which use an NMC chemistry.As
+    of September 2022, LFP batteries had increased its market share of the entire
+    EV battery market to 31%. Of those, 68% were deployed by two companies, Tesla
+    and BYD.Lithium iron phosphate batteries officially surpassed ternary batteries
+    in 2021 with 52% of installed capacity.'
+  questions_and_answers:
+  - answer: LiFePO4 batteries are ideal for forklifts, bicycles, and electric cars.
+    question: What type of vehicles are ideal for LiFePO4 batteries?
+  - answer: As of September 2022, 68% of LFP batteries were deployed by Tesla and
+      BYD.
+    question: Which companies have deployed the majority of LFP batteries as of September
+      2022?
+  - answer: As of September 2022, LFP batteries had increased its market share to
+      31%.
+    question: What percentage of the entire EV battery market did LFP batteries have
+      as of September 2022?
+- context: Analysts estimate that its market share will exceed 60% in 2024. In February
+    2023, Ford announced that it will be investing $3.5 billion to build a factory
+    in Michigan that will produce low-cost batteries for some of its electric vehicles.
+    The project will be fully owned by a Ford subsidiary, but will use technology
+    licensed from Chinese battery company Contemporary Amperex Technology Co., Limited
+    (CATL).
+  questions_and_answers:
+  - answer: Its market share will exceed 60% in 2024.
+    question: What is the estimated market share of Ford in 2024?
+  - answer: Ford is investing $3.5 billion to build a factory in Michigan.
+    question: What is the amount Ford is investing to build a factory in Michigan?
+  - answer: Contemporary Amperex Technology Co., Limited (CATL) is the technology
+      licensor for the battery project in Michigan.
+    question: Who is the technology licensor for the battery project in Michigan?
+- context: "### Solar-powered lighting systems Single \"14500\" (AA battery\u2013\
+    sized) LFP cells are now used in some solar-powered landscape lighting instead\
+    \ of 1.2 V NiCd/NiMH. LFP's higher (3.2 V) working voltage lets a single cell\
+    \ drive an LED without circuitry to step up the voltage."
+  questions_and_answers:
+  - answer: "Single '14500' (AA battery\u2013sized) LFP cells"
+    question: What type of battery is used in some solar-powered landscape lighting?
+  - answer: 3.2 V
+    question: What is the working voltage of LFP cells used in solar-powered landscape
+      lighting?
+  - answer: 'Yes'
+    question: Can a single LFP cell drive an LED without any circuitry to step up
+      the voltage in solar-powered landscape lighting?
+- context: Its increased tolerance to modest overcharging (compared to other Li cell
+    types) means that LiFePO 4 can be connected to photovoltaic cells without circuitry
+    to halt the recharge cycle. By 2013, better solar-charged passive infrared motion
+    detector security lamps emerged.
+  questions_and_answers:
+  - answer: LiFePO4 has an increased tolerance to modest overcharging compared to
+      other Li cell types.
+    question: What is unique about LiFePO4 compared to other Li cell types?
+  - answer: LiFePO4 can be connected to photovoltaic cells without circuitry to halt
+      the recharge cycle because of its increased tolerance to modest overcharging.
+    question: Why can LiFePO4 be connected to photovoltaic cells without circuitry
+      to halt the recharge cycle?
+  - answer: Better solar-charged passive infrared motion detector security lamps emerged
+      by 2013.
+    question: What emerged by 2013 in the field of solar-charged passive infrared
+      motion detector security lamps?
+- context: As AA-sized LFP cells have a capacity of only 600 mAh (while the lamp's
+    bright LED may draw 60 mA), the units shine for at most 10 hours. However, if
+    triggering is only occasional, such units may be satisfactory even charging in
+    low sunlight, as lamp electronics ensure after-dark "idle" currents of under 1
+    mA.
+  questions_and_answers:
+  - answer: The capacity of AA-sized LFP cells is 600 mAh.
+    question: What is the capacity of AA-sized LFP cells?
+  - answer: The units can shine for at most 10 hours with a 60 mA draw.
+    question: How long can the units shine with a 60 mA draw?
+  - answer: The after-dark 'idle' current of the lamp electronics is under 1 mA.
+    question: What is the after-dark 'idle' current of the lamp electronics?
+- context: '### Other uses Some electronic cigarettes use these types of batteries.
+    Other applications include marine electrical systems and propulsion, flashlights,
+    radio-controlled models, portable motor-driven equipment, amateur radio equipment,
+    industrial sensor systems and emergency lighting. A recent modification is to
+    replace the potentially unstable separator with a more stable material. Recent
+    discoveries found that LiFePO4 and to an extent Li-ion can degrade due to heat,
+    when test cells were taken apart a brick red compound had formed that when analyzed
+    suggesting that molecular breakdown of the previously believed stable separator
+    was a common failure mode.'
+  questions_and_answers:
+  - answer: LiFePO4 and Li-ion batteries have applications in electronic cigarettes,
+      marine electrical systems and propulsion, flashlights, radio-controlled models,
+      portable motor-driven equipment, amateur radio equipment, industrial sensor
+      systems, and emergency lighting.
+    question: What are some applications of LiFePO4 and Li-ion batteries?
+  - answer: A recent modification is to replace the potentially unstable separator
+      with a more stable material.
+    question: What is a recent modification made to LiFePO4 and Li-ion batteries?
+  - answer: When test cells were taken apart, a brick red compound had formed that
+      when analyzed suggested that molecular breakdown of the previously believed
+      stable separator was a common failure mode.
+    question: What is a common failure mode of LiFePO4 and Li-ion batteries due to
+      heat?
+- context: In this case, the side reactions gradually consume Li ions trapping them
+    in stable compounds so they can't be shuttled. Also three electrode batteries
+    that permit external devices to detect internal shorts forming are a potential
+    near term solution to the dendrite issue.
+  questions_and_answers:
+  - answer: The side reactions gradually consume Li ions trapping them in stable compounds
+      so they can't be shuttled.
+    question: What is the reason for the side reactions gradually consuming Li ions
+      in batteries?
+  - answer: Three electrode batteries that permit external devices to detect internal
+      shorts forming are a potential near term solution to the dendrite issue.
+    question: What is a potential near term solution to the dendrite issue in batteries?
+  - answer: They can't be shuttled.
+    question: What happens to the Li ions when they are trapped in stable compounds
+      due to side reactions?
+version: 3
