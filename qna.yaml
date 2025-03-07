@@ -298,3 +298,10 @@ seed_examples:
     question: What happens to the Li ions when they are trapped in stable compounds
       due to side reactions?
 version: 3
+document_outline: |
+  Overview of lithium iron phosphate battery a type of lithium-ion battery, it's composition and use cases
+document:
+  repo: https://github.com/noelo/taxonomy.git
+  commit: 2a8124a
+  patterns:
+    - knowledge/energy/electricity/batteries/lifepo4-info.md
