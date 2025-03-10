@@ -95,7 +95,7 @@ def generate_examples(src_context:str)->SeedExample:
     
     return fin
     
-def process_context_file(context_file:str):
+def process_context_file(context_file:str,output_file_name:str):
     f=open(context_file,"r")
     context_list = f.read().split("\n\n\n")
     
@@ -111,9 +111,10 @@ def process_context_file(context_file:str):
     
     yaml_string=yaml.dump(json.loads(jsonout))
 
-    ts =str(datetime.datetime.now().timestamp())
+    # ts =str(datetime.datetime.now().timestamp())
 
-    with open('qna.yaml.'+ts, 'w') as file:
+
+    with open(output_file_name, 'w') as file:
         file.write(yaml_string)   
     
 if __name__ == "__main__":
@@ -121,6 +122,7 @@ if __name__ == "__main__":
     logging.basicConfig( level=logging.INFO)
     parser = argparse.ArgumentParser()
     parser.add_argument("context_file", help = "Text file containing multiple context section. Each section is deliniated by two blank lines",type=str)
+    parser.add_argument("output_file", help = "name of file to write output to",type=str)
     args = parser.parse_args()
-    process_context_file(args.context_file)
+    process_context_file(args.context_file,args.output_file)
 
