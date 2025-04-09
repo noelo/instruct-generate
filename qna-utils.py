@@ -119,7 +119,9 @@ def process_context_file(context_file:str,output_file_name:str) -> None:
 
     qna_list=[]
     for cnt in context_list:
+        _log.info(f'Context-> {cnt}')
         response=generate_examples(cnt)
+        _log.info(f'    Example-> {response}')
         qna_list.append(response)
 
     finalqna = QNAModel(version=3,created_by="ai",domain="CHANGE ME",seed_examples=qna_list)
